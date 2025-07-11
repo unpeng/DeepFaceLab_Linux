@@ -22,6 +22,7 @@ Check latest cudnn and cudatoolkit version for your GPU device.
  git clone --depth 1 https://github.com/iperov/DeepFaceLab.git
  python -m pip install -r ./DeepFaceLab/requirements-cuda.txt
 ```
+必须 opencv-python-headless==4.5.1.48
 
 you can confirm your gpu is working correctly by running the following code and seeing what messages pop up:
 
